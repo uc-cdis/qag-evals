@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gpt-oss-eval"
+version = "0.1.0"
+description = "baseline model evaluation pipeline using vLLM"
+requires-python = ">=3.12"
+
+dependencies = [
+    "vllm>=0.8.0",
+    "flashinfer-python",
+    "transformers>=4.51.0",
+    "pandas>=2.0",
+    "tqdm>=4.0",
+]
+
+[project.scripts]
+gpt-oss-eval = "gpt_oss_inference:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
