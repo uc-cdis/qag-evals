@@ -1,8 +1,10 @@
-# Input data. qag_supp.xlsx comes from the supplemental materials of the paper.
-inputs/*.xlsx
+# Input data, for example qag_supp.xlsx from the supplemental materials of
+# the paper
+inputs*/
 
-# Results written by the notebooks
-outputs/
+# Results written by the notebooks, for example outputs/ or one folder per
+# model such as outputs_gpt-oss-120b/
+outputs*/
 
 # Python and Jupyter files
 __pycache__/
