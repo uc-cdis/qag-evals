@@ -1,0 +1,12 @@
+# Input data. qag_supp.xlsx comes from the supplemental materials of the paper.
+inputs/*.xlsx
+
+# Results written by the notebooks
+outputs/
+
+# Python and Jupyter files
+__pycache__/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
