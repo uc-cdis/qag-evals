@@ -1,14 +1,2 @@
-# Input data, for example qag_supp.xlsx from the supplemental materials of
-# the paper
-inputs*/
-
-# Results written by the notebooks, for example outputs/ or one folder per
-# model such as outputs_gpt-oss-120b/
-outputs*/
-
-# Python and Jupyter files
-__pycache__/
-.ipynb_checkpoints/
-
-# Virtual environments
-.venv/
+.dccache
+.DS_store
